@@ -1,5 +1,4 @@
 # UpgradeSimpleTranslation From Mobile Junior Meetup
-author: https://github.com/goingreen; i just integrate Combine to reduce network activity of app
 
 I create a publisher and subscriber, when user type -> change variable, which listen a publisher; 
 In this moment subscriber drops dublicates of requests and wait 500 milliseconds after user stop typing a text and put this string into func which work with yandex translate api, so this solution just reduce some network activity;
